@@ -7,3 +7,12 @@ export interface CustomButtonProps {
   handleClick?: MouseEventHandler<HTMLButtonElement>;
   title: string;
 }
+
+// export interface CustomFilterProps {
+
+// }
+
+export interface SearchManufacturerProps {
+  data: string;
+  setData: React.Dispatch<React.SetStateAction<string>>;
+}
